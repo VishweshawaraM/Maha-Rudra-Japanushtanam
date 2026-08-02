@@ -119,3 +119,13 @@ footer.site-footer b{ color:var(--gold-light); }
   header.site-header{ flex-direction:column; align-items:flex-start; }
   nav.site-nav{ gap:14px; }
 }
+
+/* Deity photo */
+.deity-photo{ text-align:center; margin: 4px 0 18px; }
+.deity-photo img{ width:170px; height:170px; object-fit:cover; border-radius:50%; border:3px solid var(--gold); }
+
+/* Contact buttons */
+.contact-buttons{ display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:18px; }
+.btn-contact{ display:inline-block; padding:13px 24px; border-radius:6px; font-weight:bold; text-decoration:none; font-size:14.5px; }
+.btn-call{ background:var(--gold); color:var(--maroon-dark); }
+.btn-wa{ background:#25D366; color:#06210f; }
