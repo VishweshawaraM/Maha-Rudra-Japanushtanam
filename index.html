@@ -91,7 +91,7 @@
     <hr class="div">
     <div class="section-note" style="text-align:center;">After paying, please fill the form below so we can acknowledge your seva.</div>
 
-    <form action="https://formsubmit.co/vedavijnanagurukulam@gmail.com" method="POST">
+    <form action="https://formsubmit.co/vedavijnanagurukulam@gmail.com" method="POST" enctype="multipart/form-data">
       <input type="hidden" name="_subject" value="Maharudra Japanushtanam - Dhana Sahaya Support">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_next" value="thank-you.html">
@@ -129,6 +129,10 @@
 
       <label>Message (optional)</label>
       <textarea name="Message" placeholder="Any message or blessings you'd like to share"></textarea>
+
+      <label>Payment Screenshot *</label>
+      <input type="file" name="attachment" accept="image/*,.pdf" required>
+      <div class="section-note" style="text-align:left; margin-top:6px;">Please attach a screenshot or photo of your UPI/QR payment confirmation.</div>
 
       <button type="submit">Submit Dhana Sahaya</button>
     </form>
